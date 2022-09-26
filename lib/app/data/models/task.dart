@@ -7,7 +7,7 @@ class Task extends Equatable {
   final String color;
   final List<dynamic>? todos;
 
-  Task({
+  const Task({
     required this.title,
     required this.icon,
     required this.color,
