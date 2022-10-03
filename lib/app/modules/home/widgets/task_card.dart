@@ -30,6 +30,7 @@ class TaskCard extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // ignore: todo
           // TODO change after finish todo
           StepProgressIndicator(
             totalSteps: 100,
@@ -69,7 +70,7 @@ class TaskCard extends StatelessWidget {
                 ),
                 Text(
                   '${task.todos?.length ?? 0} Task',
-                  style: TextStyle(
+                  style: const TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Colors.grey,
                   ),
